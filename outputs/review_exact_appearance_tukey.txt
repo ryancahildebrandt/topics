@@ -1,0 +1,50 @@
+      Multiple Comparison of Means - Tukey HSD, FWER=0.05       
+================================================================
+   group1       group2    meandiff p-adj   lower   upper  reject
+----------------------------------------------------------------
+       count     count_dt  -0.8575    0.0  -1.044 -0.6711   True
+       count           dt  -0.4622    0.0 -0.6486 -0.2757   True
+       count          lda  -0.1389 0.3467 -0.3254  0.0475  False
+       count          nmf  -0.1389 0.3467 -0.3254  0.0475  False
+       count   pytextrank   0.0702 0.9725 -0.1162  0.2567  False
+       count tfidf_corpus  -0.1914 0.0388 -0.3779  -0.005   True
+       count     tfidf_dt  -0.8575    0.0  -1.044 -0.6711   True
+       count  tfidf_texts      0.0    1.0 -0.1865  0.1865  False
+       count         yake   0.0227    1.0 -0.1638  0.2092  False
+    count_dt           dt   0.3953    0.0  0.2089  0.5818   True
+    count_dt          lda   0.7186    0.0  0.5321  0.9051   True
+    count_dt          nmf   0.7186    0.0  0.5321  0.9051   True
+    count_dt   pytextrank   0.9277    0.0  0.7413  1.1142   True
+    count_dt tfidf_corpus   0.6661    0.0  0.4797  0.8526   True
+    count_dt     tfidf_dt      0.0    1.0 -0.1865  0.1865  False
+    count_dt  tfidf_texts   0.8575    0.0  0.6711   1.044   True
+    count_dt         yake   0.8802    0.0  0.6938  1.0667   True
+          dt          lda   0.3233    0.0  0.1368  0.5097   True
+          dt          nmf   0.3233    0.0  0.1368  0.5097   True
+          dt   pytextrank   0.5324    0.0  0.3459  0.7189   True
+          dt tfidf_corpus   0.2708 0.0002  0.0843  0.4572   True
+          dt     tfidf_dt  -0.3953    0.0 -0.5818 -0.2089   True
+          dt  tfidf_texts   0.4622    0.0  0.2757  0.6486   True
+          dt         yake   0.4849    0.0  0.2984  0.6713   True
+         lda          nmf      0.0    1.0 -0.1865  0.1865  False
+         lda   pytextrank   0.2091 0.0145  0.0227  0.3956   True
+         lda tfidf_corpus  -0.0525 0.9966  -0.239   0.134  False
+         lda     tfidf_dt  -0.7186    0.0 -0.9051 -0.5321   True
+         lda  tfidf_texts   0.1389 0.3467 -0.0475  0.3254  False
+         lda         yake   0.1616 0.1549 -0.0248  0.3481  False
+         nmf   pytextrank   0.2091 0.0145  0.0227  0.3956   True
+         nmf tfidf_corpus  -0.0525 0.9966  -0.239   0.134  False
+         nmf     tfidf_dt  -0.7186    0.0 -0.9051 -0.5321   True
+         nmf  tfidf_texts   0.1389 0.3467 -0.0475  0.3254  False
+         nmf         yake   0.1616 0.1549 -0.0248  0.3481  False
+  pytextrank tfidf_corpus  -0.2616 0.0004 -0.4481 -0.0752   True
+  pytextrank     tfidf_dt  -0.9277    0.0 -1.1142 -0.7413   True
+  pytextrank  tfidf_texts  -0.0702 0.9725 -0.2567  0.1162  False
+  pytextrank         yake  -0.0475 0.9984  -0.234  0.1389  False
+tfidf_corpus     tfidf_dt  -0.6661    0.0 -0.8526 -0.4797   True
+tfidf_corpus  tfidf_texts   0.1914 0.0388   0.005  0.3779   True
+tfidf_corpus         yake   0.2141 0.0108  0.0277  0.4006   True
+    tfidf_dt  tfidf_texts   0.8575    0.0  0.6711   1.044   True
+    tfidf_dt         yake   0.8802    0.0  0.6938  1.0667   True
+ tfidf_texts         yake   0.0227    1.0 -0.1638  0.2092  False
+----------------------------------------------------------------

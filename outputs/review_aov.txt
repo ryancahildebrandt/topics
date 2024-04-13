@@ -1,0 +1,3 @@
+                    df      sum_sq   mean_sq        F    PR(>F)
+C(topic_source)    9.0    3.156026  0.350670  1.85557  0.055067
+Residual         960.0  181.422829  0.188982      NaN       NaN

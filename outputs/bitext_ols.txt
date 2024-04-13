@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  score   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                  0.019
+Method:                 Least Squares   F-statistic:                     30.77
+Date:                Fri, 12 Apr 2024   Prob (F-statistic):           7.34e-54
+Time:                        19:21:03   Log-Likelihood:                -7997.8
+No. Observations:               13902   AIC:                         1.602e+04
+Df Residuals:                   13892   BIC:                         1.609e+04
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+Intercept                           0.6576      0.010     68.204      0.000       0.639       0.676
+C(topic_source)[T.count_dt]         0.0622      0.019      3.337      0.001       0.026       0.099
+C(topic_source)[T.dt]              -0.2577      0.019    -13.512      0.000      -0.295      -0.220
+C(topic_source)[T.lda]             -0.0169      0.015     -1.096      0.273      -0.047       0.013
+C(topic_source)[T.nmf]             -0.0169      0.015     -1.095      0.273      -0.047       0.013
+C(topic_source)[T.pytextrank]       0.0032      0.014      0.233      0.816      -0.024       0.030
+C(topic_source)[T.tfidf_corpus]    -0.0239      0.015     -1.543      0.123      -0.054       0.006
+C(topic_source)[T.tfidf_dt]         0.0622      0.019      3.337      0.001       0.026       0.099
+C(topic_source)[T.tfidf_texts]   8.105e-15      0.014   5.94e-13      1.000      -0.027       0.027
+C(topic_source)[T.yake]             0.0079      0.014      0.576      0.564      -0.019       0.035
+==============================================================================
+Omnibus:                    98291.863   Durbin-Watson:                   0.044
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2046.089
+Skew:                          -0.595   Prob(JB):                         0.00
+Kurtosis:                       1.545   Cond. No.                         9.46
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

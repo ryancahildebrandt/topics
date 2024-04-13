@@ -1,0 +1,11 @@
+topic_source,score
+pytextrank,0.7500930125232109
+tfidf_corpus,0.8
+yake,0.8910742090583987
+count,0.9090909090909091
+tfidf_texts,0.9090909090909091
+lda,0.9375
+nmf,0.9375
+count_dt,1.0
+dt,1.0
+tfidf_dt,1.0
